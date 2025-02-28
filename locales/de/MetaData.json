@@ -1,0 +1,52 @@
+{
+  "Home": {
+    "title": "Lizard Projects - Startseite",
+    "description": "Willkommen bei Lizard Projects, Ihrem Partner für Webdesign, Entwicklung, Marketing und mehr.",
+    "keywords": "Lizard Projects, Webdesign, Webentwicklung, Marketing, Startseite"
+  },
+  "Services": {
+    "title": "Unsere Dienstleistungen - Lizard Projects",
+    "description": "Entdecken Sie das breite Spektrum der von Lizard Projects angebotenen Dienstleistungen, einschließlich Webdesign, Entwicklung, Marketing und mehr.",
+    "keywords": "Dienstleistungen, Webdesign, Webentwicklung, Marketing, Grafikdesign, Veranstaltungsorganisation"
+  },
+  "Career": {
+    "title": "Karriere bei Lizard Projects",
+    "description": "Werden Sie Teil des Lizard Projects Teams. Entdecken Sie unsere Karrieremöglichkeiten und wachsen Sie mit uns.",
+    "keywords": "Karriere, Jobs, Möglichkeiten, Lizard Projects, Arbeiten bei uns"
+  },
+  "Cookie_Policy": {
+    "title": "Cookie-Richtlinie - Lizard Projects",
+    "description": "Lesen Sie unsere Cookie-Richtlinie, um zu verstehen, wie wir Cookies auf unserer Website verwenden.",
+    "keywords": "Cookie-Richtlinie, Cookies, Datenschutz, Lizard Projects"
+  },
+  "Web_Design_and_Development": {
+    "title": "Webdesign und -entwicklung - Lizard Projects",
+    "description": "Professionelle Webdesign- und Entwicklungsdienstleistungen, um Ihr Unternehmen online hervorzuheben.",
+    "keywords": "Webdesign, Webentwicklung, Lizard Projects, professionelle Dienstleistungen"
+  },
+  "Online_Marketing": {
+    "title": "Online-Marketing-Dienstleistungen - Lizard Projects",
+    "description": "Effektive Online-Marketing-Dienstleistungen, um Ihr Geschäft zu vergrößern und Ihre Zielgruppe zu erreichen.",
+    "keywords": "Online-Marketing, digitales Marketing, SEO, PPC, soziale Medien, Lizard Projects"
+  },
+  "Graphic_Design": {
+    "title": "Grafikdesign-Dienstleistungen - Lizard Projects",
+    "description": "Kreative Grafikdesign-Dienstleistungen, um Ihre Marke visuell ansprechend zu gestalten.",
+    "keywords": "Grafikdesign, Branding, visuelle Identität, Lizard Projects"
+  },
+  "Media": {
+    "title": "Mediendienste - Lizard Projects",
+    "description": "Umfassende Mediendienste zur Stärkung der Präsenz Ihrer Marke auf verschiedenen Plattformen.",
+    "keywords": "Mediendienste, Medienstrategie, Inhaltserstellung, Lizard Projects"
+  },
+  "Brand_Building": {
+    "title": "Markenaufbau-Dienstleistungen - Lizard Projects",
+    "description": "Strategische Markenaufbau-Dienstleistungen, um eine starke, einprägsame Markenidentität zu schaffen.",
+    "keywords": "Markenaufbau, Branding, Markenstrategie, Lizard Projects"
+  },
+  "Event_Organization": {
+    "title": "Veranstaltungsorganisation-Dienstleistungen - Lizard Projects",
+    "description": "Professionelle Veranstaltungsorganisation-Dienstleistungen, um Ihre Events erfolgreich und unvergesslich zu machen.",
+    "keywords": "Veranstaltungsorganisation, Veranstaltungsplanung, Eventmanagement, Lizard Projects"
+  }
+}

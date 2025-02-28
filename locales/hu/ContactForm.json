@@ -1,0 +1,19 @@
+{
+    "contact_title": "Kapcsolat",
+    "contact_sub_title": "Felkészültél arra, hogy megmásszd a siker falát?",
+    "contact_text": "A nagy dolgok gyakran egy egyszerű beszélgetéssel kezdődnek. Oszd meg velünk elképzeléseidet, és vizsgáljuk meg, hogyan járulhatunk hozzá a projektjeid sikeréhez. ",
+    "contact_motto": "A Te ötleteid, a mi szakértelmünk - egy erőteljes kombináció, amely életre kelti céljaidat.",
+    "first_name": "Keresztnév",
+    "last_name": "Vezetéknév",
+    "email": "Email",
+    "phone": "Telefonszám",
+    "message": "Üzenet",
+    "legal_text": "Hozzájárulok, hogy a Lizard Projects a megadott adataimat felhasználhassa a kapcsolatfelvételhez.",
+    "send": "Küldés",
+    "sending": "ElKüldés...",
+    "error": "Kérlek, töltsd ki az összes mezőt, és hagyd jóvá, hogy felvegyük veled a kapcsolatot.",
+    "success_title": "Köszönjük, hogy kapcsolatba léptél velünk",
+    "success_message": "Hamarosan felvesszük veled a kapcsolatot."
+
+
+}

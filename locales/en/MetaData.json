@@ -1,0 +1,53 @@
+{
+    "Home": {
+      "title": "Lizard Projects - Home",
+      "description": "Welcome to Lizard Projects, your partner for web design, development, marketing, and more.",
+      "keywords": "Lizard Projects, web design, web development, marketing, home,"
+    },
+    "Services": {
+      "title": "Our Services - Lizard Projects",
+      "description": "Explore the wide range of services offered by Lizard Projects including web design, development, marketing, and more.",
+      "keywords": "services, web design, web development, marketing, graphic design, event organization"
+    },
+    "Career": {
+      "title": "Careers at Lizard Projects",
+      "description": "Join the Lizard Projects team. Explore our career opportunities and grow with us.",
+      "keywords": "careers, jobs, opportunities, Lizard Projects, work with us"
+    },
+    "Cookie_Policy": {
+      "title": "Cookie Policy - Lizard Projects",
+      "description": "Read our cookie policy to understand how we use cookies on our website.",
+      "keywords": "cookie policy, cookies, privacy, Lizard Projects"
+    },
+    "Web_Design_and_Development": {
+      "title": "Web Design and Development - Lizard Projects",
+      "description": "Professional web design and development services to help your business stand out online.",
+      "keywords": "web design, web development, Lizard Projects, professional services"
+    },
+    "Online_Marketing": {
+      "title": "Online Marketing Services - Lizard Projects",
+      "description": "Effective online marketing services to grow your business and reach your target audience.",
+      "keywords": "online marketing, digital marketing, SEO, PPC, social media, Lizard Projects"
+    },
+    "Graphic_Design": {
+      "title": "Graphic Design Services - Lizard Projects",
+      "description": "Creative graphic design services to make your brand visually appealing.",
+      "keywords": "graphic design, branding, visual identity, Lizard Projects"
+    },
+    "Media": {
+      "title": "Media Services - Lizard Projects",
+      "description": "Comprehensive media services to enhance your brand's presence across various platforms.",
+      "keywords": "media services, media strategy, content creation, Lizard Projects"
+    },
+    "Brand_Building": {
+      "title": "Brand Building Services - Lizard Projects",
+      "description": "Strategic brand building services to create a strong, memorable brand identity.",
+      "keywords": "brand building, branding, brand strategy, Lizard Projects"
+    },
+    "Event_Organization": {
+      "title": "Event Organization Services - Lizard Projects",
+      "description": "Professional event organization services to make your events successful and memorable.",
+      "keywords": "event organization, event planning, event management, Lizard Projects"
+    }
+  }
+  

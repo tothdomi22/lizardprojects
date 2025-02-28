@@ -1,0 +1,52 @@
+{
+  "Home": {
+    "title": "Lizard Projects - Főoldal",
+    "description": "Üdvözlünk a Lizard Projects-nél, a partnered webdesign, fejlesztés, marketing és további szolgáltatások terén.",
+    "keywords": "Lizard Projects, webdesign, webfejlesztés, marketing, főoldal"
+  },
+  "Services": {
+    "title": "Szolgáltatásaink - Lizard Projects",
+    "description": "Fedezd fel a Lizard Projects által kínált széles körű szolgáltatásokat, beleértve a webdesign, fejlesztés, marketing és még sok más területet.",
+    "keywords": "szolgáltatások, webdesign, webfejlesztés, marketing, grafikai tervezés, rendezvényszervezés"
+  },
+  "Career": {
+    "title": "Karrier a Lizard Projects-nél",
+    "description": "Csatlakozz a Lizard Projects csapatához. Fedezd fel karrierlehetőségeinket és növekedj velünk.",
+    "keywords": "karrier, állások, lehetőségek, Lizard Projects, dolgozz velünk"
+  },
+  "Cookie_Policy": {
+    "title": "Sütiszabályzat - Lizard Projects",
+    "description": "Olvasd el sütiszabályzatunkat, hogy megértsd, hogyan használunk sütiket a weboldalunkon.",
+    "keywords": "sütiszabályzat, sütik, adatvédelem, Lizard Projects"
+  },
+  "Web_Design_and_Development": {
+    "title": "Webdesign és Fejlesztés - Lizard Projects",
+    "description": "Professzionális webdesign és fejlesztési szolgáltatások, hogy vállalkozásod online kitűnjön.",
+    "keywords": "webdesign, webfejlesztés, Lizard Projects, professzionális szolgáltatások"
+  },
+  "Online_Marketing": {
+    "title": "Online Marketing Szolgáltatások - Lizard Projects",
+    "description": "Hatékony online marketing szolgáltatások, hogy vállalkozásod növekedjen és elérd célközönséged.",
+    "keywords": "online marketing, digitális marketing, SEO, PPC, közösségi média, Lizard Projects"
+  },
+  "Graphic_Design": {
+    "title": "Grafikai Tervezés Szolgáltatások - Lizard Projects",
+    "description": "Kreatív grafikai tervezési szolgáltatások, hogy márkád vizuálisan vonzó legyen.",
+    "keywords": "grafikai tervezés, arculattervezés, vizuális identitás, Lizard Projects"
+  },
+  "Media": {
+    "title": "Média Szolgáltatások - Lizard Projects",
+    "description": "Átfogó média szolgáltatások, hogy márkád jelenlétét különböző platformokon erősítsd.",
+    "keywords": "média szolgáltatások, média stratégia, tartalomkészítés, Lizard Projects"
+  },
+  "Brand_Building": {
+    "title": "Márkaépítés Szolgáltatások - Lizard Projects",
+    "description": "Stratégiai márkaépítés szolgáltatások, hogy erős és emlékezetes márkaidentitást hozz létre.",
+    "keywords": "márkaépítés, arculattervezés, márkastratégia, Lizard Projects"
+  },
+  "Event_Organization": {
+    "title": "Rendezvényszervezés Szolgáltatások - Lizard Projects",
+    "description": "Professzionális rendezvényszervezés szolgáltatások, hogy eseményeid sikeresek és emlékezetesek legyenek.",
+    "keywords": "rendezvényszervezés, rendezvénytervezés, eseményszervezés, Lizard Projects"
+  }
+}

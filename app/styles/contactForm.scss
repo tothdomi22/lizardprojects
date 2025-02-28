@@ -1,0 +1,229 @@
+.contact-input {
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+    padding-left: 0.8rem;
+    background-color: transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    transition: 0.75s;
+    margin-top: 1.5rem;
+    width: 100%;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-input:focus {
+    outline: none;
+    border-radius: 3px;
+    transition: 0.75s;
+    border-bottom: 1px solid #00FF9C;
+  
+}
+
+
+  
+  .contact-input:focus::placeholder {
+    color: #00FF9C;
+    /* Replace with your linear gradient or desired color for focused state */
+  }
+
+
+  .contact-message {
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+    padding-left: 0.8rem;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: 0.75s;
+    min-height: 30rem;
+    resize: none !important;
+}
+
+.contact-message:focus {
+    outline: none;
+    border-radius: 3px;
+    transition: 0.75s;
+    border: 1px solid #00FF9C;
+  
+}
+
+
+  
+  .contact-message:focus::placeholder {
+    color: #00FF9C;
+    /* Replace with your linear gradient or desired color for focused state */
+  }
+
+  /*Checkboxes styles*/
+input[type="checkbox"] { display: none; }
+
+input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font: 14px/20px 'Open Sans', Arial, sans-serif;
+  color: #ddd;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+
+input[type="checkbox"] + label:before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: .6;
+  -webkit-transition: all .12s, border-color .08s;
+  transition: all .12s, border-color .08s;
+}
+
+input[type="checkbox"]:checked + label:before {
+  width: 10px;
+  top: -5px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+label {
+    width: -moz-fit-content;
+    width: fit-content;
+   
+}
+
+
+.send-button {
+    background: linear-gradient(90deg, #00FF9C 0%, #00FF06 100%);
+    color: #1D1D1B;
+    border-radius: 3px;
+    padding: 1.1rem 1.25rem;
+    width: 100%;
+    max-width: 16rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+}
+
+.send-button:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.send-button:focus {
+    outline: none;
+} 
+
+.sending-button {
+
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  padding: 1.1rem 1.25rem;
+  width: 100%;
+  max-width: 16rem;
+  margin: auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+}
+
+
+/////////////// Spinner
+.loader {
+  transform: rotateZ(45deg);
+  perspective: 1000px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #00FF06;
+  outline: none !important;
+}
+  .loader:before,
+  .loader:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    transform: rotateX(70deg);
+    animation: 1s spin linear infinite;
+  }
+  .loader:after {
+    color: #00FF9C;
+    transform: rotateY(70deg);
+    animation-delay: .4s;
+  }
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(360deg);
+  }
+}
+
+@keyframes rotateccw {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+@keyframes spin {
+  0%,
+  100% {
+    box-shadow: .2em 0px 0 0px currentcolor;
+  }
+  12% {
+    box-shadow: .2em .2em 0 0 currentcolor;
+  }
+  25% {
+    box-shadow: 0 .2em 0 0px currentcolor;
+  }
+  37% {
+    box-shadow: -.2em .2em 0 0 currentcolor;
+  }
+  50% {
+    box-shadow: -.2em 0 0 0 currentcolor;
+  }
+  62% {
+    box-shadow: -.2em -.2em 0 0 currentcolor;
+  }
+  75% {
+    box-shadow: 0px -.2em 0 0 currentcolor;
+  }
+  87% {
+    box-shadow: .2em -.2em 0 0 currentcolor;
+  }
+}
+
+
+
+

@@ -1,0 +1,50 @@
+{
+  "Organization": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "https://www.lizardprojects.com",
+    "name": "Lizard Projects",
+    "description": "A Lizard Projects egy marketing ügynökség, amely átfogó szolgáltatásokat nyújt, beleértve a webdesign, webfejlesztés, grafikai tervezés, marketing szolgáltatások és rendezvényszervezés.",
+    "logo": "https://www.lizardprojects.com/assets/logo_green.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+36204984855",
+      "contactType": "Ügyfélszolgálat",
+      "areaServed": "Globális",
+      "availableLanguage": ["Angol", "Magyar", "Német"]
+    },
+    "sameAs": [
+      "https://www.facebook.com/lizardprojects",
+      "https://www.linkedin.com/company/lizardprojects",
+      "https://www.instagram.com/lizardprojects",
+      "https://www.youtube.com/@lizardprojects"
+    ],
+    "service": [
+      {
+        "@type": "Service",
+        "name1": "Webdesign",
+        "description1": "Professzionális webdesign szolgáltatások, hogy vállalkozásod kitűnjön online."
+      },
+      {
+        "@type": "Service",
+        "name2": "Webfejlesztés",
+        "description2": "Egyedi webfejlesztési szolgáltatások, amelyek az üzleti igényeidhez igazodnak."
+      },
+      {
+        "@type": "Service",
+        "name3": "Grafikai tervezés",
+        "description3": "Kreatív grafikai tervezési szolgáltatások, hogy márkád vizuálisan vonzó legyen."
+      },
+      {
+        "@type": "Service",
+        "name4": "Marketing szolgáltatások",
+        "description4": "Hatékony marketing szolgáltatások, hogy vállalkozásod növekedjen és elérd célközönséged."
+      },
+      {
+        "@type": "Service",
+        "name5": "Rendezvényszervezés",
+        "description5": "Professzionális rendezvényszervezés szolgáltatások, hogy eseményeid sikeresek és emlékezetesek legyenek."
+      }
+    ]
+  }
+}

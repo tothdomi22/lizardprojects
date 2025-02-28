@@ -1,0 +1,50 @@
+{
+  "Organization": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "https://www.lizardprojects.com",
+    "name": "Lizard Projects",
+    "description": "Lizard Projects ist eine Marketingagentur, die umfassende Dienstleistungen anbietet, einschließlich Webdesign, Webentwicklung, Grafikdesign, Marketingdienstleistungen und Veranstaltungsorganisation.",
+    "logo": "https://www.lizardprojects.com/assets/logo_green.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+36204984855",
+      "contactType": "Kundendienst",
+      "areaServed": "Global",
+      "availableLanguage": ["Englisch", "Ungarisch", "Deutsch"]
+    },
+    "sameAs": [
+      "https://www.facebook.com/lizardprojects",
+      "https://www.linkedin.com/company/lizardprojects",
+      "https://www.instagram.com/lizardprojects",
+      "https://www.youtube.com/@lizardprojects"
+    ],
+    "service": [
+      {
+        "@type": "Service",
+        "name1": "Webdesign",
+        "description1": "Professionelle Webdesign-Dienstleistungen, um Ihr Unternehmen online hervorzuheben."
+      },
+      {
+        "@type": "Service",
+        "name2": "Webentwicklung",
+        "description2": "Maßgeschneiderte Webentwicklungsdienstleistungen, die auf die Bedürfnisse Ihres Unternehmens zugeschnitten sind."
+      },
+      {
+        "@type": "Service",
+        "name3": "Grafikdesign",
+        "description3": "Kreative Grafikdesign-Dienstleistungen, um Ihre Marke visuell zu verbessern."
+      },
+      {
+        "@type": "Service",
+        "name4": "Marketingdienstleistungen",
+        "description4": "Effektive Marketingdienstleistungen, um Ihr Geschäft zu vergrößern und Ihre Zielgruppe zu erreichen."
+      },
+      {
+        "@type": "Service",
+        "name5": "Veranstaltungsorganisation",
+        "description5": "Professionelle Veranstaltungsorganisationsdienste, um Ihre Events erfolgreich und unvergesslich zu machen."
+      }
+    ]
+  }
+}
