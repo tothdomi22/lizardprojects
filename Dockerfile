@@ -13,8 +13,8 @@ RUN npm install --legacy-peer-deps
 FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
-# Copy the rest of the app files (adjust as needed)
-COPY .. .
+# Copy the rest of the app files from the build context
+COPY . .
 ENV NEXT_TELEMETRY_DISABLED=1
 RUN npm run build
 
