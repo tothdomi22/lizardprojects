@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -81,11 +82,7 @@ const AboutSection = () => {
         </div>
         <div className="grid grid-cols-1 justify-center mx-auto sm:grid-cols-2 w-[80vw] lg:w-[65%] mt-16">
           <div className="w-[80%] mx-auto sm:max-w-[60%] my-10">
-            <img
-              src="assets/PIC1.webp"
-              alt={`A photo of ${t("Home:team_member1")}`}
-              className="w-[100%] object-fill"
-            />
+            <Image src={"/assets/zoli.jpg"} width={400} height={400} alt="zoli image" />
             <div className="flex flex-col py-5 w-full">
               <span className="font-[600]">{t("Home:team_member1")}</span>
               <span className="font-[300]">{t("Home:member_occupation1")}</span>
@@ -93,11 +90,7 @@ const AboutSection = () => {
           </div>
 
           <div className="w-[80%] mx-auto sm:max-w-[60%] my-10">
-            <img
-              src="assets/PIC2.webp"
-              alt={`A photo of ${t("Home:team_member2")}`}
-              className="w-[100%] object-fill"
-            />
+          <Image src={"/assets/lazi.jpg"} width={400} height={400} alt="lazi image" />
             <div className="flex flex-col py-5 w-full">
               <span className="font-[600]">{t("Home:team_member2")}</span>
               <span className="font-[300]">{t("Home:member_occupation2")}</span>
