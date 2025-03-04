@@ -296,7 +296,7 @@ const Footer = () => {
         <span className="footer-separator flex flex-col w-[85vw] h-[1px] my-10 mx-auto "></span>
 
         <p className="text-center text-white text-[0.7rem]">
-          ©{new Date().getFullYear()} All Rights Reserved
+          ©{new Date().getFullYear()} All Rights Reserved - powered by Primáta Kft
         </p>
       </div>
     </div>

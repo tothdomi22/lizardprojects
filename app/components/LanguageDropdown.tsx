@@ -1,10 +1,9 @@
-// LanguageDropdown.tsx
 "use client";
-import i18nConfig from "@/i18nConfig";
-import { usePathname } from "next/navigation";
-import { useRouter } from "next/navigation";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { useRouter, usePathname } from "next/navigation";
+
+import i18nConfig from "@/i18nConfig";
 
 const LanguageDropdown: React.FC = () => {
   const [isDropdownOpen, setDropdownOpen] = useState<boolean>(false);
@@ -16,25 +15,33 @@ const LanguageDropdown: React.FC = () => {
 
   useEffect(() => {
     handleChange();
-  }, [currentLocale]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentLocale]); // re-run whenever the language changes
 
   const handleChange = () => {
-    // set cookie for next-i18n-router
+    // (1) set cookie for next-i18n-router (if you're relying on that)
     const days = 30;
     const date = new Date();
     date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
     const expires = "; expires=" + date.toUTCString();
     document.cookie = `NEXT_LOCALE=${currentLocale};expires=${expires};path=/`;
 
-    // redirect to the new locale path
+    // (2) strip any existing locale prefix
+    //    e.g. /en/some/route -> /some/route
+    //         /hu/ -> /
+    const strippedPath = currentPathname.replace(/^\/(en|hu|de)/, "");
+
+    // (3) Construct and push the new path based on the locale
     if (currentLocale === i18nConfig.defaultLocale) {
-      router.push("/" + currentLocale + currentPathname);
+      // If it's the default locale, redirect to path without any prefix
+      // (or just "/" if there's no path left).
+      router.push(strippedPath || "/");
     } else {
-      router.push(
-        currentPathname.replace(`/${currentLocale}`, `/${currentLocale}`)
-      );
+      // Otherwise, prepend the new locale
+      router.push(`/${currentLocale}${strippedPath}`);
     }
 
+    // (Optional) Force re-fetch of data for the new locale (if needed)
     router.refresh();
   };
 
@@ -43,8 +50,10 @@ const LanguageDropdown: React.FC = () => {
   };
 
   const handleChangeLanguage = (language: string) => {
+    // This will cause `currentLocale` to change,
+    // which triggers useEffect -> handleChange
     i18n.changeLanguage(language);
-    setDropdownOpen(false); // Close the dropdown after selecting a language
+    setDropdownOpen(false); // close the dropdown
   };
 
   return (
@@ -53,6 +62,7 @@ const LanguageDropdown: React.FC = () => {
         className="bg-transparent px-4 py-2 rounded-md focus:outline-none flex flex-row"
         onClick={toggleDropdown}
       >
+        {/* Show flag depending on current locale */}
         {currentLocale === "hu" && (
           <img
             src="/assets/flag_hu.svg"
@@ -90,14 +100,14 @@ const LanguageDropdown: React.FC = () => {
         </span>
       </button>
 
-      {/* Dropdown Content */}
+      {/* Dropdown content */}
       <div
         className={`absolute ${
           isDropdownOpen ? "block" : "hidden"
         } bg-[#0000007e] backdrop-blur-md text-white border border-[#ffffff75] mt-2`}
       >
         <button
-        className="block w-full text-left px-4 py-2 hover:bg-lighterGreen hover:text-black "
+          className="block w-full text-left px-4 py-2 hover:bg-lighterGreen hover:text-black"
           onClick={() => handleChangeLanguage("hu")}
           title="Magyar"
         >
