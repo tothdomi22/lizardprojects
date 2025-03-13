@@ -148,14 +148,6 @@ const Footer = () => {
             </li>
             <li className="w-fit mx-auto my-5">
               <Link
-                href="/career"
-                className="text-white text-[0.85rem] md:text-[0.9rem] lg:text-[1rem] mx-auto w-fit hover:text-lighterGreen"
-              >
-                {t("Navbar:career")}
-              </Link>
-            </li>
-            <li className="w-fit mx-auto my-5">
-              <Link
                 href="/cookie-policy"
                 className="text-white text-[0.85rem] md:text-[0.9rem] lg:text-[1rem] mx-auto w-fit hover:text-lighterGreen"
               >
